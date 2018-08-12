@@ -3,7 +3,7 @@
     "description": "3rd Party Extension: Nexcess 2FA authentication for Magento Admin / Customer",
     "license": "OSL-3.0",
     "authors": [
-        { "name": "Nexcess", "email": "support@nexcess.com", "role": "Developer"` }
+        { "name": "Nexcess", "email": "support@nexcess.com", "role": "Developer" }
     ],
     "type": "magento-module",
     "require": {
