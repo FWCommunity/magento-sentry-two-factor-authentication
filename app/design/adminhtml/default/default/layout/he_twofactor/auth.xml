@@ -3,6 +3,9 @@
 
   <default>
     <reference name="head">
+        <action method="removeItem"><type>js</type><name>prototype/prototype.js</name></action>
+        <action method="addJs"><script>lib/jquery/jquery-1.12.0.js</script></action>
+        <action method="addJs"><script>prototype/prototype.js</script></action>
         <action method="addJs"><script>he_twofactor/adminpanel.js</script></action>
         <action method="addItem"><type>skin_css</type><name>he_twofactor/css/admin.css</name></action>
     </reference>
