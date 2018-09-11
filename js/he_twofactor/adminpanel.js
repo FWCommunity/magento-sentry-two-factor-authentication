@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
 //on document ready
-he_twofactor_ready(function() {
   //if the provider selector is on this page
   var providerSelect=document.getElementById('he2faconfig_control_provider');
   if(providerSelect!=undefined){
@@ -95,5 +94,4 @@ he_twofactor_ready(function() {
     //make the selected section visible (if any) and hide any (deselected) sections
     updateVisibleWrap();
   }
-});
 });
